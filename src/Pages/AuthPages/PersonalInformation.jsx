@@ -45,6 +45,7 @@ const PersonalInformation = () => {
     data.append("country", country);
     data.append("image", image);
     data.append("Id", Id);
+    data.append("mobile", mobile);
 
     axios
       .post(`${process.env.REACT_APP_SERVER}/signupstep3`, data)

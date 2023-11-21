@@ -22,7 +22,7 @@ const Login = () => {
             "password": password
         };
         // console.log(login);
-        await axios.post("http://localhost:5000/login", login)
+        await axios.post(`${process.env.REACT_APP_SERVER}/login`, login)
             .then(async (response) => {
                 console.log(response.data);
 

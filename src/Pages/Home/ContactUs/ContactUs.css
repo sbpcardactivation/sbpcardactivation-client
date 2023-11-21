@@ -1,0 +1,125 @@
+.contactUs {
+  background-color: #272242;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 100px;
+}
+.contactSubHead {
+  background: linear-gradient(
+    110deg,
+    rgb(237, 110, 70) 0%,
+    rgb(103, 70, 237) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  font-family: "Source Sans Pro-Regular", Helvetica;
+  font-size: 15.2px;
+  font-weight: 400;
+  height: 19px;
+  letter-spacing: 6.93px;
+  line-height: 24.6px;
+  overflow-wrap: break-word;
+}
+.contactHead {
+  background: linear-gradient(
+    150deg,
+    rgb(237, 110, 70) 0%,
+    rgb(103, 70, 237) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  font-size: 121.3px;
+  font-weight: 200;
+}
+.contactAddress {
+  text-align: center;
+  color: #e0dbff8a;
+  font-size: 19.5px;
+  font-weight: 400;
+  font-family: "Source Sans Pro-Regular", Halventica;
+  height: 187px;
+  letter-spacing: 0.43px;
+}
+.contactUs button {
+  width: 500px;
+  height: auto;
+  align-items: center;
+  border-radius: 22px;
+  border: none;
+  font-family: "Roboto-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 14px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background: linear-gradient(
+    100deg,
+    rgb(237, 110, 70) 0%,
+    rgb(103, 70, 237) 100%
+  );
+  color: rgba(255, 255, 255, 1);
+}
+.contactSocial {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px;
+  color: linear-gradient(150deg, rgb(237, 110, 70) 0%, rgb(103, 70, 237) 100%);
+  font-size: 60px;
+}
+.contactSocialIcon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #302B4C;
+  margin: 10px;
+  border-radius: 100px;
+  width: 80px;
+  height: 80px;
+  font-size: 50px;
+  color: white;
+  cursor: pointer;
+}
+.contactCopyright{
+  color: #e0dbff8a;
+  font-size: 19.5px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 1050px) {
+  .contactUs{
+    width: 100%;
+    padding: 20px;
+  }
+  .contactSubHead{
+    font-size: 12.8px;
+    text-align: center;
+  }
+  .contactHead{
+    font-size: 51px;
+  }
+  .contactAddress{
+    font-size: 16.5px;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 100;
+  }
+  .contactUs button{
+    font-size: 16.5px;
+    width: max-content;
+    padding: 10px 40px;
+    margin: 20px 0;
+  }
+  .contactSocialIcon{
+    font-size: 28px;
+    width: 50px;
+    height: 50px;
+  }
+  .contactCopyright{
+    font-size: 15px;
+    font-weight: 200;
+  }
+}

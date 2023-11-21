@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300&display=swap");
+
+.block1 {
+  display: flex;
+  /* align-items: center; */
+  height: auto;
+}
+.block1-image {
+  width: 50%;
+  height: 651px;
+}
+.block1 img {
+  max-width: 100%;
+}
+
+.block1-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #211d36;
+}
+.block1-content-head {
+  font-family: "League Spartan", sans-serif;
+  font-size: 75.8px;
+  font-weight: 200;
+  height: 85px;
+  background: linear-gradient(
+    180deg,
+    rgb(237, 110, 70) 0%,
+    rgb(103, 70, 237) 100%
+  );
+  background-clip: text;
+  color: transparent;
+}
+.block1-content-subHead1 {
+  background: linear-gradient(
+    180deg,
+    rgb(237, 110, 70) 0%,
+    rgb(103, 70, 237) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  font-family: "Source Sans Pro-Regular", Helvetica;
+  font-size: 13.2px;
+  font-weight: 400;
+  height: 19px;
+  letter-spacing: 6.93px;
+  line-height: 24.6px;
+  margin-bottom: 40px;
+}
+
+.block1-content-subHead2 {
+  color: #e0dbff8a;
+  font-size: 19.5px;
+  font-weight: 200;
+  /* height: 24px; */
+  letter-spacing: 0.43px;
+  line-height: 36.6px;
+  text-align: center;
+  text-wrap: wrap;
+  margin-bottom: 20px;
+}
+.block1-content button {
+  width: 223px;
+  height: auto;
+  align-items: center;
+  color: #211d36;
+  border-radius: 22px;
+  border: none;
+  font-family: "Roboto-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;  
+  padding: 14px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background: linear-gradient(
+    180deg,
+    rgb(237, 110, 70) 0%,
+    rgb(103, 70, 237) 100%
+  );
+  color: rgba(255, 255, 255, 1);
+}
+.trustPilot-score {
+  color: #8a85a6;
+  font-family: "Outfit-Bold", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-top: 10px;
+}
+.block1-content img {
+  width: 223px;
+  height: auto;
+  align-items: center;
+}
+
+
+
+
+
+#trustedNetworkMain .block1-image{
+    background-image: url('../../../Assets\(New\)/Image_TrustedNetwork.jpeg');
+    background-size: cover;
+  }
+#accessibilityMain .block1-image{
+    background-image: url('../../../Assets\(New\)/Image-Accessibility.jpeg');
+    background-size: cover;
+  }
+#decentralizedMain .block1-image{
+    background-image: url('../../../Assets\(New\)/Image-Decentralized.jpeg');
+    background-size: cover;
+  }
+#seamlessMain .block1-image{
+    background-image: url('../../../Assets\(New\)/Image-Seamless.jpeg');
+    background-size: cover;
+  }
+#securityMain .block1-image{
+    background-image: url('../../../Assets\(New\)/Image-Security.jpeg');
+    background-size: cover;
+  }
+
+
+
+@media only screen and (max-width: 1050px) {
+  .block1{
+    flex-direction: column;
+    width: 100%;
+  }
+  .block1-image{
+    width: 100%;
+    height: 240px;
+    background-image: url('../../../Assets\(New\)/Image_TrustedNetwork.jpeg');
+  }
+  .block1-image img{
+    display: none;
+  }
+  .block1-content{
+    width: 100%;
+    padding: 100px 10px;
+  }
+  .block1-content button{
+    font-size: 16.5px;
+  }
+  .block1-content-subHead2{
+    font-size: 16.5px;
+  }
+  .block1-content-head{
+    font-size: 35px;
+    height: max-content;
+  }
+  .block1-content-subHead1{
+    font-size: 12.8px;
+  }
+  #accessibilityMain, #seamlessMain{
+    flex-direction: column-reverse;
+  }
+  #securityMain img{
+    width: 200px;
+  }
+  #securityMain .trustPilot-score{
+    font-size: 22px;
+  }
+  
+}

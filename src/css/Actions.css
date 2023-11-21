@@ -1,0 +1,32 @@
+.actions{
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    padding: 20px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    font-size: 10px;
+    background-image: url(../Assets/Background/Bg02.jpg);
+    background-size: cover;
+}
+.actionCard{
+    padding: 10px;
+    text-align: center;
+
+}
+.actionCard img{
+    width: 40%;
+    
+}
+
+.actionCard h1{
+    color: white;
+    /* color: rgb(26, 25, 102); */
+}
+@media only screen and (max-width: 650px){
+    .actions{
+        flex-wrap: wrap;
+    }
+}

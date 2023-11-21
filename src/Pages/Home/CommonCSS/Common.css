@@ -164,5 +164,13 @@
   #securityMain .trustPilot-score{
     font-size: 22px;
   }
+  #accessibilityMain .block1-image{
+    background-image: url('../../../Assets\(New\)/Image-Accessibility-Mobile.jpeg');
+    background-size: cover;
+  }
+  #seamlessMain .block1-image{
+    background-image: url('../../../Assets\(New\)/Image-Seamless-Mobile.jpeg');
+    background-size: cover;
+  }
   
 }

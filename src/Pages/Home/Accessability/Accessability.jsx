@@ -13,9 +13,9 @@ const Accessibility = () => {
           Our platform is renowned for its global 24/7 accessibility and low
           transaction fees for easy and simple transactions worldwide
         </p>
-        <button>
-          Get Started <ArrowForwardIcon />
-        </button>
+        <button onClick={()=>{
+                  window.scrollTo({top: 0, behavior: "smooth"})
+                }} >Get Started <ArrowForwardIcon/></button>
       </div>
       <div className="block1-image">
         <img src={Image_Accessibility} alt="Security" />

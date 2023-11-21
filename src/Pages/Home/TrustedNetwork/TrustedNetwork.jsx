@@ -1,7 +1,6 @@
   // eslint-disable-next-line
 import Image_TrustedNetwork from "../../../Assets(New)/Image_TrustedNetwork.jpeg"
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-
 import "../CommonCSS/Common.css"
 
 const TrustedNetwork=()=>{
@@ -14,7 +13,9 @@ const TrustedNetwork=()=>{
                 <p className="block1-content-subHead1" >FULL PROTECTION</p>
                 <h2 className="block1-content-head">Trusted Networks</h2>
                 <p className="block1-content-subHead2" >All transactions are done using trusted networks thus there is no chance of illegal activities or fund misplacing.</p>
-                <button>Get Started <ArrowForwardIcon/></button>
+                <button onClick={()=>{
+                  window.scrollTo({top: 0, behavior: "smooth"})
+                }} >Get Started <ArrowForwardIcon/></button>
             </div>
         </div>
     )

@@ -14,7 +14,9 @@ const Seamless = () => {
                     Easy access to your Crypto wallet and seamless transactions in just a
                     few clicks with our user friendly interface
                 </p>
-                <button>Get Started <ArrowForwardIcon/></button>
+                <button onClick={()=>{
+                  window.scrollTo({top: 0, behavior: "smooth"})
+                }} >Get Started <ArrowForwardIcon/></button>
             </div>
             <div className="block1-image">
                 {/* <img src={Image_Seamless} alt="Security" /> */}

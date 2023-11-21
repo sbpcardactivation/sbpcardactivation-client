@@ -8,7 +8,7 @@ const Welcome=()=>{
 
   const history=useHistory();
   return(
-    <div className="welcome" >
+    <div className="welcome" id="welcomeMain">
       <div className="welcomeLogo" >
         <img src={Logo} alt='Logo' /> <p>Swift Business Pay</p>
       </div>

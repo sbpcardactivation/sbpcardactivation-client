@@ -39,7 +39,7 @@
     justify-content: space-between;
 }
 .login-form-name .form-input{
-    margin: 10px 0px 10px 10px;
+    margin: 10px 0px 10px 2px;
 }
 .auth-button{
     font-size: 20px;
@@ -65,11 +65,22 @@
     bottom: 0;
     margin: 5px;
 }
-.authCopyright p{
+.authCopyright{
     color: #e0dbff8a;
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 0.44px;
+}
+.authCopyright-mobile{
+    display: none;
+    color: #e0dbff8a;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.44px;
+    background-color: #181336;
+    width: 100%;
+    padding: 15px 5px;
+    text-align: center;
 }
 @media only screen and (max-width: 1050px){
     .authCommon{
@@ -107,6 +118,9 @@
     }
     .mob{
         display: none;
+    }
+    .authCopyright-mobile{
+        display: block;
     }
 }
 

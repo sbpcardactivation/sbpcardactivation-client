@@ -168,6 +168,9 @@ const PersonalInformation = () => {
       </div>
       <div className="authCopyright mob">
       </div>
+      <div className="authCopyright-mobile">
+          <p>&copy; Swift Business Pay. All rights reserved.</p>
+        </div>
     </div>
   );
 };

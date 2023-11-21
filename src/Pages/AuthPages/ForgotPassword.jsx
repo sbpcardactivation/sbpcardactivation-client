@@ -7,7 +7,7 @@ import { useHistory } from "react-router-dom";
 import Logo from '../../Assets(New)/Logo.png'
 import {useState} from 'react'
 import axios from 'axios'
-import swal from 'sweetalert'
+// import swal from 'sweetalert'
 import { CircularProgress } from "@mui/material";
 
 const ForgotPassword=()=>{
@@ -58,7 +58,7 @@ const ForgotPassword=()=>{
                     </div>
 
                     
-                    <button className="auth-button" onClick={handleClick} >SUBMIT</button>
+                    <button className="auth-button" onClick={handleClick} >{submitButton}</button>
 
                 </form>
             </div>

@@ -22,6 +22,7 @@ const PersonalInformation = () => {
   let [country, setCountry] = useState("");
 
   let tempUserId = sessionStorage.getItem("tempUserId");
+  // eslint-disable-next-line
   let [image, setImage] = useState();
   // eslint-disable-next-line
   let [Id, setId] = useState();

@@ -32,9 +32,13 @@ export default function AdminActivatesAllCards(props) {
     let [classicAwaitButton, setClassicAwaitButton] = useState("Await");
     let [classicDeactivateButton, setClassicDeactivateButton] = useState("Deactivate");
 
-    let [titaniumUpdateButton, setTitaniumUpdateButton] = useState("Update");
-    let [titaniumActivateButton, setTitaniumActivateButton] = useState("Activate");
-    let [titaniumAwaitButton, setTitaniumAwaitButton] = useState("Await");
+  // eslint-disable-next-line
+  let [titaniumUpdateButton, setTitaniumUpdateButton] = useState("Update");
+  // eslint-disable-next-line
+  let [titaniumActivateButton, setTitaniumActivateButton] = useState("Activate");
+  // eslint-disable-next-line
+  let [titaniumAwaitButton, setTitaniumAwaitButton] = useState("Await");
+  // eslint-disable-next-line
     let [titaniumDeactivateButton, setTitaniumDeactivateButton] = useState("Deactivate");
 
     let primeData = {

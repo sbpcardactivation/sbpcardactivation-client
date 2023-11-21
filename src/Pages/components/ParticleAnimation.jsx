@@ -1,14 +1,17 @@
 import React from "react";
+
+  // eslint-disable-next-line
 import Particles from "react-tsparticles";
 
 
 export default function ParticleAnimation() {
+  // eslint-disable-next-line
     const particlesInit = (main) => {
         // console.log(main)
 
         // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
     };
-
+  // eslint-disable-next-line
     const particlesLoaded = (container) => {
         // console.log(container)
     };

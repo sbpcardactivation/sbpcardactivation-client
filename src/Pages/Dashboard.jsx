@@ -10,6 +10,7 @@ import Prime from "../Assets/Cards/PrimeMasterCard.png"
 import Classic from "../Assets/Cards/ClassicMasterCard.png"
 import Titanium from "../Assets/Cards/TitaniumMasterCard.png"
 
+// eslint-disable-next-line
 import Header from "./components/Header"
 export default function UserAccount() {
 

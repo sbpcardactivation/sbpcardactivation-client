@@ -20,6 +20,7 @@ const PersonalInformation = () => {
   let [address, setAddress] = useState("");
   let [postalCode, setPostalCode] = useState("");
   let [country, setCountry] = useState("");
+  let [mobile, setMobile]=useState("");
 
   let tempUserId = sessionStorage.getItem("tempUserId");
   // eslint-disable-next-line
@@ -94,6 +95,18 @@ const PersonalInformation = () => {
               type="text"
               value={lName}
               onChange={(e)=>setLName(e.target.value)}
+            />
+          </div>
+          <div className="form-input">
+            <TextField
+              required
+              id="outlined-required"
+              label="Mobile Number"
+              defaultValue=""
+              fullWidth="true"
+              type="text"
+              value={mobile}
+              onChange={(e)=>setMobile(e.target.value)}
             />
           </div>
           <div className="form-input">

@@ -1,23 +1,35 @@
 import React from "react";
 import Welcome from "./Home/Welcome/Welcome";
-import WhatIs from "./components/WhatIs";
-import Actions from "./components/Actions";
-
-import FeaturedIn from "./components/FeaturedIn";
-import Reviews from "./components/Reviews";
-import Founder from "./components/Founder";
+  // eslint-disable-next-line
+  import WhatIs from "./components/WhatIs";
+  // eslint-disable-next-line
+  import Actions from "./components/Actions";
+  
+  // eslint-disable-next-line
+  import FeaturedIn from "./components/FeaturedIn";
+  // eslint-disable-next-line
+  import Reviews from "./components/Reviews";
+  // eslint-disable-next-line
+  import Founder from "./components/Founder";
+  // eslint-disable-next-line
 import Contact from "./components/Contact";
 // eslint-disable-next-line
 import Footer from "./components/Footer";
 
+// eslint-disable-next-line
 import BitcoinHome from "../Assets/BitcoinHome.png"
+// eslint-disable-next-line
 import Phone from "./components/Phone"
 // eslint-disable-next-line
 import TelegramFollow from "./components/TelegramFollow";
+// eslint-disable-next-line
 import PaymentSecure from "../Assets/PaymentSecured.jpeg"
 
+// eslint-disable-next-line
 import TelegramImage from "../Assets/TelegramImage.png"
+// eslint-disable-next-line
 import WhereWeInvest from "./HomeComponents/WhereWeInvest";
+// eslint-disable-next-line
 import ProfitPercentage from "./HomeComponents/ProfitPercentage";
 import Security from "./Home/Security/Security"
 import Seamless from "./Home/Seamless/Seamless";

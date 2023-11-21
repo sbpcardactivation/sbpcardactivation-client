@@ -1,3 +1,4 @@
+  // eslint-disable-next-line
 import Image_Seamless from "../../../Assets(New)/Image-Seamless.jpeg";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 

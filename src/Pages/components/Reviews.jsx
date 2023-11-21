@@ -1,6 +1,7 @@
 import React from "react";
 import "../../css/Reviews.css"
 
+  // eslint-disable-next-line
 import Animation from "../../Assets/animation.png"
 export default function Reviews() {
     return (

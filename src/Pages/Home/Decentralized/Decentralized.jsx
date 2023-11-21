@@ -1,3 +1,4 @@
+  // eslint-disable-next-line
 import Image_Decentralized from "../../../Assets(New)/Image-Decentralized.jpeg"
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 

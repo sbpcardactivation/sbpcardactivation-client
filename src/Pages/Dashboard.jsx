@@ -3,11 +3,11 @@ import "../css/UserAccount.css";
 
 import ParticleAnimation from "./components/ParticleAnimation";
 import axios from "axios"
-import DefaultImage from "../Assets/CardUi.png"
+import DefaultImage from "../Assets(New)/Cards/DefaultCard.png"
 
 import { useHistory } from "react-router-dom"
-import Prime from "../Assets/Cards/PrimeMasterCard.png"
-import Classic from "../Assets/Cards/ClassicMasterCard.png"
+import Prime from "../Assets(New)/Cards/PrimeMasterCard.png"
+import Classic from "../Assets(New)/Cards/ClassicMasterCard.png"
 import Titanium from "../Assets/Cards/TitaniumMasterCard.png"
 
 // eslint-disable-next-line

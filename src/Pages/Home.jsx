@@ -27,6 +27,7 @@ import PaymentSecure from "../Assets/PaymentSecured.jpeg"
 
 // eslint-disable-next-line
 import TelegramImage from "../Assets/TelegramImage.png"
+import WhatsappImage from "../Assets/WhatsAppLogo.png"
 // eslint-disable-next-line
 import WhereWeInvest from "./HomeComponents/WhereWeInvest";
 // eslint-disable-next-line
@@ -68,12 +69,16 @@ export default function Home() {
             {/* <Founder /> */}
             {/* <Contact /> */}
             {/* <Footer/> */}
-            {/* <a href="https://t.me/swiftbusinesspaypro" target="_blank" rel="noreferrer" >
+            <a href="https://t.me/swiftbusinesspaypro" target="_blank" rel="noreferrer" >
 
-                <img src={TelegramImage} alt="TelegramImage" style={{ "position": "fixed", "bottom": "0", "right": "0", "width": "80px", "margin": "0 15px 15px 0", }} />
+                <img src={TelegramImage} alt="TelegramImage" style={{ "position": "fixed", "bottom": "50", "right": "0", "width": "80px", "margin": "0 15px 100px 0", }} />
+            </a>
+            <a href="https://wa.me/+19148391269" target="_blank" rel="noreferrer" >
+
+                <img src={WhatsappImage} alt="TelegramImage" style={{ "position": "fixed", "bottom": "0", "right": "0", "width": "80px", "margin": "0 15px 15px 0", }} />
             </a>
 
-            <div style={{'width':'100%', 'display':'flex', 'alignItems':'center', 'justifyContent':'center'}} >
+            {/* <div style={{'width':'100%', 'display':'flex', 'alignItems':'center', 'justifyContent':'center'}} >
                 <img src={BitcoinHome} alt='BitcoinHome' style={{'width':'20%'}}/>
             </div> */}
             {/* <img src={PaymentSecure} alt="paymentSecure" style={{ "width": "100%" }} /> */}

@@ -5,7 +5,7 @@ import ParticleAnimation from "../components/ParticleAnimation";
 import { CountryDropdown} from 'react-country-region-selector';
 import PaymentSecured from "../../Assets/PaymentSecured.jpeg"
 import { useHistory } from "react-router-dom";
-import Merchant from "../../Assets/Cards/MerchantMasterCard.png"
+import Merchant from "../../Assets(New)/Cards/DemoMerchantMasterCard.png"
 
 
 export default function MerchantMasterCard() {

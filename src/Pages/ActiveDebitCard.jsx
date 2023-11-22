@@ -3,11 +3,11 @@ import "../css/ActiveDebitCard.css"
 
 import ActiveCards from "./components/ActiveCards";
 
-import Classic from "../Assets/DemoCards/DemoClassicMasterCard.jpeg"
-import Merhchant from "../Assets/DemoCards/DemoMerchantMasterCard.jpeg"
-import Prime from "../Assets/DemoCards/DemoPrimeMasterCard.jpeg"
-import Titanium from "../Assets/DemoCards/DemoTitaniumMasterCard.jpeg"
-import WorldElite from "../Assets/DemoCards/DemoWorldEliteMasterCard.jpeg"
+import Classic from "../Assets(New)/Cards/DemoClassicMasterCard.png"
+import Merhchant from "../Assets(New)/Cards/DemoMerchantMasterCard.png"
+import Prime from "../Assets(New)/Cards/DemoPrimeMasterCard.png"
+import Titanium from "../Assets(New)/Cards/DemoTitaniumMasterCard.png"
+import WorldElite from "../Assets(New)/Cards/DemoWorldEliteMasterCard.png"
 import ParticleAnimation from "./components/ParticleAnimation"
 
 import MoneyBack from "../Assets/MoneyBack.png"
@@ -36,7 +36,7 @@ export default function ActiveDebitCard() {
             </div>
             <ParticleAnimation />
 
-            <h1 style={{ "textAlign": "center", "width": "100%" }} >Active Debit Card</h1>
+            <h1 style={{ "textAlign": "center", "width": "100%" }} >Activate Debit Card</h1>
             <br />
             <div className="moneyBack" >
 

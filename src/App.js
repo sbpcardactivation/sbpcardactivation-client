@@ -75,7 +75,7 @@ import ForgotPassword from "./Pages/AuthPages/ForgotPassword";
 function App() {
     return (
 
-        <div style={{backgroundColor:'#12121A'}} >
+        <div style={{background:'radial-gradient(50% 50% at 50% 50%, rgb(39,34,66) 0%, rgb(18, 18, 25) 100%)'}} >
             
             <Router>
                 {/* <CurrentNavbar /> */}

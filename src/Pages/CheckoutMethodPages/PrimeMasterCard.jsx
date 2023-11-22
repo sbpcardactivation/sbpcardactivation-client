@@ -1,7 +1,7 @@
 import React from "react";
 import "../../css/Payment.css"
 
-import Prime from "../../Assets/Cards/PrimeMasterCard.png"
+import Prime from "../../Assets(New)/Cards/DemoPrimeMasterCard.png"
 // import { CountryDropdown, RegionDropdown, CountryRegionData } from 'react-country-region-selector';
 import ParticleAnimation from "../components/ParticleAnimation";
 

@@ -7,7 +7,7 @@ import Logo from "../../Assets(New)/Logo.png";
 
 import axios from "axios";
 import swal from "sweetalert";
-
+import { CircularProgress } from "@mui/material";
 const CreateAccount = () => {
   let [fName, setFName] = useState("");
   let [lName, setLName] = useState("");
@@ -15,6 +15,7 @@ const CreateAccount = () => {
   let [password, setPassword] = useState("");
   let [confirmPassword, setConfirmPassword] = useState("")
   
+  let [submitButton, setSubmitButton]=useState("SIGNUP");
 
   //Createing new form data
   const data = new FormData();
@@ -132,7 +133,7 @@ const CreateAccount = () => {
             />
           </div>
 
-          <button className="auth-button" onClick={handleClick}>SIGNUP</button>
+          <button className="auth-button" onClick={handleClick}>{submitButton}</button>
           <div className="auth-already">
             <p>
               Already have an account?{" "}

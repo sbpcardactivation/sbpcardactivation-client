@@ -1,6 +1,5 @@
 import Image_Auth from "../../Assets(New)/Image_Auth.png";
 import TextField from "@mui/material/TextField";
-
 import "./Common.css";
 import "../Home/CommonCSS/Common.css";
 import { useHistory } from "react-router-dom";
@@ -9,6 +8,7 @@ import { CountryDropdown } from "react-country-region-selector";
 import {useState, useEffect} from 'react'
 import swal from 'sweetalert'
 import axios from 'axios'
+import { CircularProgress } from "@mui/material";
 
 
 const PersonalInformation = () => {
@@ -21,6 +21,7 @@ const PersonalInformation = () => {
   let [postalCode, setPostalCode] = useState("");
   let [country, setCountry] = useState("");
   let [mobile, setMobile]=useState("");
+  let [submitButton, setSubmitButton]=useState("Submit");
 
   let tempUserId = sessionStorage.getItem("tempUserId");
   // eslint-disable-next-line
@@ -158,7 +159,7 @@ const PersonalInformation = () => {
               onChange={(val) => setCountry(val)}
             />
           </div>
-          <button className="auth-button" onClick={handleClick} >SUBMIT</button>
+          <button className="auth-button" onClick={handleClick} >{submitButton}</button>
           <div className="login-fp">Forgot Password?</div>
 
           <div className="auth-already">

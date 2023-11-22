@@ -8,10 +8,14 @@ import Logo from '../../Assets(New)/Logo.png'
 import { useState } from "react";
 import axios from 'axios'
 import swal from 'sweetalert'
+import { CircularProgress } from "@mui/material";
+
+
 const Login = () => {
 
     const [otp, setOtp]=useState();
     const history = useHistory();
+    let [submitButton, setSubmitButton]=useState("Reset OTP");
 
     function handleClick(e){
         e.preventDefault();
@@ -55,7 +59,7 @@ const Login = () => {
 
                     
                     <button className="auth-button" onClick={handleClick} >SIGNUP</button>
-                    <div className="login-fp" >Reset OTP</div>
+                    <div className="login-fp" >{submitButton}</div>
 
                     <div className="auth-already">
                         <p>

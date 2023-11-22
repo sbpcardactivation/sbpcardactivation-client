@@ -8,12 +8,14 @@ import Logo from '../../Assets(New)/Logo.png'
 import {useState} from 'react'
 import axios from 'axios'
 import swal from 'sweetalert'
+import { CircularProgress } from "@mui/material";
 
 
 const Login = () => {
     const history = useHistory();
     const [user, setUser] = useState(null);
     const [password, setPassword] = useState(null);
+    const [submitButton, setSubmitButton]=useState("LOG IN");
 
     async function handleSubmit(e) {
         e.preventDefault();
@@ -80,7 +82,7 @@ const Login = () => {
                             onChange={(e)=>setPassword(e.target.value)}
                         />
                     </div>
-                    <button className="auth-button" onClick={handleSubmit} >LOG IN</button>
+                    <button className="auth-button" onClick={handleSubmit} >{submitButton}</button>
                     <div className="login-fp" onClick={()=>history.push('/forgotpassword')}>Forgot Password?</div>
 
                     <div className="auth-already">

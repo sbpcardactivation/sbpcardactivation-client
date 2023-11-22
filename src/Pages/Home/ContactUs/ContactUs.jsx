@@ -26,17 +26,17 @@ const ContactUs = () => {
                   window.scrollTo({top: 0, behavior: "smooth"})
                 }} >Get Started <ArrowForwardIcon/></button>
       </div>
-      <div className="contactSocial">
+      <a className="contactSocial" href="https://t.me/swiftbusinesspaypro" target="_blank" rel="noreferrer">
         <div className="contactSocialIcon">
-          <TelegramIcon fontSize="inherit" />
+          <TelegramIcon fontSize="inherit"  />
         </div>
-        <div className="contactSocialIcon">
+        <a className="contactSocialIcon" href="https://wa.me/+19148391269" target="_blank" rel="noreferrer">
           <WhatsAppIcon fontSize="inherit" />
-        </div>
-        <div className="contactSocialIcon">
+        </a>
+        <a className="contactSocialIcon" href="mailto: zonalteam.swiftbusinesspay@gmail.com" target="_blank" rel="noreferrer">
           <MailOutlineIcon fontSize="inherit" />
-        </div>
-      </div>
+        </a>
+      </a>
       <p className="contactCopyright">
         &copy; Swift Business Pay. All rights reserved.
       </p>

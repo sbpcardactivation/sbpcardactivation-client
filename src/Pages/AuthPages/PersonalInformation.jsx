@@ -56,6 +56,7 @@ const PersonalInformation = () => {
           history.push("/signup/requestsent");
         } else if (response.status === 202) {
           swal(`${response.data.message}`, "", "error");
+          setSubmitButton('Submit')
         }
       });
   }

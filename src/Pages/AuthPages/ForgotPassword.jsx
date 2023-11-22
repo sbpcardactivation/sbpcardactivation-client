@@ -30,6 +30,7 @@ const ForgotPassword=()=>{
                 setSubmitButton("Submit");
                 sessionStorage.setItem("otpId", response.data.userId);
                 history.push("/user/changepassword")
+                setSubmitButton('Submit')
             })
     }
 

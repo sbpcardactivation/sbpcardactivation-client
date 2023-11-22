@@ -42,6 +42,7 @@ const CreateAccount = () => {
           history.push("/signup/verifyotp");
         } else if (response.status === 202) {
           swal(`${response.data.error}`, `${response.data.message}`, "error");
+          setSubmitButton('SIGNUP')
         }
       });
     }

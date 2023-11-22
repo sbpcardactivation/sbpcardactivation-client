@@ -45,6 +45,7 @@ const Login = () => {
                     swal("Error!", "Some unexpected error occurred.", "error")
                     // console.log(response.data);
                 }
+                setSubmitButton('LOG IN')
             });
     }
 

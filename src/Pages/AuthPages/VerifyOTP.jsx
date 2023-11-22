@@ -27,6 +27,8 @@ const Login = () => {
                 history.push("/signup/personalinformation");
             }else if (response.status === 202) {
                 swal(`${response.data.message}`, " ", "error")
+                setSubmitButton('Reset OTP')
+
             }
         })
     }

@@ -19,6 +19,7 @@ const Login = () => {
 
     async function handleSubmit(e) {
         e.preventDefault();
+        setSubmitButton(<CircularProgress color="inherit" />)
         const login = {
             "email": user,
             "password": password

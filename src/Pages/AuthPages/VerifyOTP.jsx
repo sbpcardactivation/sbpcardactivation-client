@@ -20,7 +20,7 @@ const Login = () => {
     function handleClick(e){
         e.preventDefault();
         // console.log(otp);
-
+        setSubmitButton(<CircularProgress color="inherit" />)
         axios.post(`${process.env.REACT_APP_SERVER}/signupstep2`, {tempUserId: sessionStorage.getItem("tempUserId"), otp: otp})
         .then((response)=>{
             if (response.status === 200) {

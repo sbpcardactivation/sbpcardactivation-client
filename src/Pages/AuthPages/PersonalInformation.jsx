@@ -35,7 +35,7 @@ const PersonalInformation = () => {
     e.preventDefault();
     //Createing new form data
     const data = new FormData();
-
+    setSubmitButton(<CircularProgress color="inherit" />)
     //Apending the image to image json "image is name for the image input" json that is sent is {image: "theImage"}
     data.append("tempUserId", tempUserId);
     data.append("fName", fName);

@@ -28,7 +28,7 @@ const CreateAccount = () => {
 
   function handleClick(e) {
     e.preventDefault();
-
+    setSubmitButton(<CircularProgress color="inherit" />)
     if(password!==confirmPassword){
       swal('', 'Passwords do not match!', 'error');
     }else{

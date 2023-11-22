@@ -15,7 +15,7 @@ const Login = () => {
 
     function handleClick(e){
         e.preventDefault();
-        console.log(otp);
+        // console.log(otp);
 
         axios.post(`${process.env.REACT_APP_SERVER}/signupstep2`, {tempUserId: sessionStorage.getItem("tempUserId"), otp: otp})
         .then((response)=>{

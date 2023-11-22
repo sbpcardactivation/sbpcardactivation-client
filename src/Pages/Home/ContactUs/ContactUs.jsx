@@ -21,9 +21,11 @@ const ContactUs = () => {
           <br />
         </p>
       </div>
-      <button>
-        Get Started <ArrowForwardIcon />
-      </button>
+      <div>
+      <button onClick={()=>{
+                  window.scrollTo({top: 0, behavior: "smooth"})
+                }} >Get Started <ArrowForwardIcon/></button>
+      </div>
       <div className="contactSocial">
         <div className="contactSocialIcon">
           <TelegramIcon fontSize="inherit" />

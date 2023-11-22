@@ -24,7 +24,7 @@ const Login = () => {
         // console.log(login);
         await axios.post(`${process.env.REACT_APP_SERVER}/login`, login)
             .then(async (response) => {
-                console.log(response.data);
+                // console.log(response.data);
 
                 if (response.status === 200) {
                     // swal("Logged In", "Successfully Authorised", "success");
@@ -35,12 +35,12 @@ const Login = () => {
                     window.location.reload();
                 } else if (response.status === 401) {
                     swal("Invalid credentials!", "Please try again with correct credentials.", "error");
-                    console.log(response.data);
+                    // console.log(response.data);
                 } else if (response.status === 202) {
                     swal(`${response.data.message}`, "", "error")
                 } else {
                     swal("Error!", "Some unexpected error occurred.", "error")
-                    console.log(response.data);
+                    // console.log(response.data);
                 }
             });
     }

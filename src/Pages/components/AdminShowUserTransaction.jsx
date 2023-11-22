@@ -35,7 +35,7 @@ export default function AdminShowUserTransaction(props) {
         let temp = [];
         await setTempRows(transactionArray);
         // console.log(response.data)
-        console.log(transactionArray)
+        // console.log(transactionArray)
 
         props.transaction.map(async (element) => {
             await temp.push(createData(element.rcpt, element.date, element.action, element.amount, element.reason));

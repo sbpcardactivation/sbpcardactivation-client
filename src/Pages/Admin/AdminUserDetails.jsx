@@ -106,7 +106,7 @@ export default function AdminUserDetails() {
                 }
             }).then(async (response) => {
 
-                console.log(response.data);
+                // console.log(response.data);
                 setTransaction(response.data.transaction);
                 document.getElementById("adminUserTransactionResult").style.display = "block"
             })

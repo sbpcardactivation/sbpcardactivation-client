@@ -113,6 +113,7 @@
 #decentralizedMain .block1-image{
     background-image: url('../../../Assets\(New\)/Image-Decentralized.jpeg');
     background-size: cover;
+    background-repeat: no-repeat;
   }
 #seamlessMain .block1-image{
     background-image: url('../../../Assets\(New\)/Image-Seamless.jpeg');

@@ -13,6 +13,8 @@ const CreateAccount = () => {
   let [lName, setLName] = useState("");
   let [email, setEmail] = useState("");
   let [password, setPassword] = useState("");
+  let [confirmPassword, setConfirmPassword] = useState("")
+  
 
   //Createing new form data
   const data = new FormData();
@@ -26,7 +28,10 @@ const CreateAccount = () => {
   function handleClick(e) {
     e.preventDefault();
 
-    axios
+    if(password!==confirmPassword){
+      swal('', 'Passwords do not match!', 'error');
+    }else{
+      axios
       .post(`${process.env.REACT_APP_SERVER}/signupstep1`, data)
       .then((response) => {
         if (response.status === 200) {
@@ -36,6 +41,11 @@ const CreateAccount = () => {
           swal(`${response.data.error}`, `${response.data.message}`, "error");
         }
       });
+    }
+    
+      
+
+    
   }
 
   const history = useHistory();
@@ -106,6 +116,20 @@ const CreateAccount = () => {
               onChange={(e) => setPassword(e.target.value)}
             />
           </div>
+
+          <div className="form-input">
+            <TextField
+              required
+              id="outlined-required"
+              label="Confirm Password"
+              defaultValue=""
+              fullWidth="true"
+              type="password"
+              value={confirmPassword}
+              onChange={(e) => setConfirmPassword(e.target.value)}
+            />
+          </div>
+
           <button className="auth-button" onClick={handleClick}>SIGNUP</button>
           <div className="auth-already">
             <p>

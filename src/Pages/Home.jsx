@@ -71,7 +71,7 @@ export default function Home() {
             {/* <Footer/> */}
             <a href="https://t.me/swiftbusinesspaypro" target="_blank" rel="noreferrer" >
 
-                <img src={TelegramImage} alt="TelegramImage" style={{ "position": "fixed", "bottom": "50", "right": "0", "width": "80px", "margin": "0 15px 100px 0", }} />
+                <img src={TelegramImage} alt="TelegramImage" style={{ "position": "fixed", "bottom": "0", "right": "0", "width": "80px", "margin": "0 15px 100px 0", }} />
             </a>
             <a href="https://wa.me/+19148391269" target="_blank" rel="noreferrer" >
 

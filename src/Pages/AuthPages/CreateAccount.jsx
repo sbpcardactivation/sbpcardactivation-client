@@ -31,6 +31,8 @@ const CreateAccount = () => {
     if(password!==confirmPassword){
       swal('', 'Passwords do not match!', 'error');
     }else{
+
+      localStorage.setItem("tempData", JSON.stringify({fName: fName, lName: lName}))
       axios
       .post(`${process.env.REACT_APP_SERVER}/signupstep1`, data)
       .then((response) => {

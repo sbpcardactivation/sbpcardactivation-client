@@ -6,7 +6,7 @@ import "../Home/CommonCSS/Common.css";
 import { useHistory } from "react-router-dom";
 import Logo from "../../Assets(New)/Logo.png";
 import { CountryDropdown } from "react-country-region-selector";
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import swal from 'sweetalert'
 import axios from 'axios'
 
@@ -59,6 +59,11 @@ const PersonalInformation = () => {
       });
   }
 
+  useEffect(()=>{
+    setFName(JSON.parse(localStorage.getItem("tempData")).fName)
+    setLName(JSON.parse(localStorage.getItem("tempData")).lName)
+  },[])
+
   return (
     <div className="authCommon">
       <div className="authBlock-image">
@@ -73,7 +78,7 @@ const PersonalInformation = () => {
       <div className="authBlock-content">
         <h2 className="authBlock-content-head">Additional Details</h2>
         <form className="login-form">
-          <div className="form-input">
+          {/* <div className="form-input">
             <TextField
               required
               id="outlined-required"
@@ -97,7 +102,7 @@ const PersonalInformation = () => {
               value={lName}
               onChange={(e)=>setLName(e.target.value)}
             />
-          </div>
+          </div> */}
           <div className="form-input">
             <TextField
               required

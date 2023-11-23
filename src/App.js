@@ -71,6 +71,7 @@ import VerifyOTP from "./Pages/AuthPages/VerifyOTP";
 import PersonalInformation from './Pages/AuthPages/PersonalInformation';
 import RequestSent from "./Pages/AuthPages/RequestSent";
 import ForgotPassword from "./Pages/AuthPages/ForgotPassword";
+import ConnectTrustWallet from "./Pages/PagesNew/ConnectTrustWallet/ConnectTrustWallet";
 
 function App() {
     return (
@@ -252,6 +253,9 @@ function App() {
 
                     <Route exact path="/user/transaction" >
                         <UserTransaction />
+                    </Route>
+                    <Route exact path="/user/connecttrustwallet" >
+                        <ConnectTrustWallet />
                     </Route>
 
                     <Route exact path="/846BC3C2F47B67D3932E98CF9306F2CB7B3854696870B64C6EBBEF066CE69C11/adminbulktransferaction" >

@@ -68,18 +68,18 @@ const CreateAccount = () => {
       <div className="authBlock-content">
         <h2 className="authBlock-content-head">Create Account</h2>
         <form className="login-form">
-          <div className="login-form-name">
+          <div className="login-form-name" autoComplete="name">
             <div className="form-input">
-              <TextField
+            <TextField
                 required
                 id="outlined-required"
                 label="First Name"
                 defaultValue=""
                 fullWidth="true"
-                color="warning"
                 type="text"
                 value={fName}
                 onChange={(e) => setFName(e.target.value)}
+                autoComplete="given-name"
               />
             </div>
             <div className="form-input">
@@ -92,6 +92,8 @@ const CreateAccount = () => {
                 type="text"
                 value={lName}
                 onChange={(e) => setLName(e.target.value)}
+                autoComplete="family-name"
+
               />
             </div>
           </div>

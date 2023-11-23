@@ -96,6 +96,14 @@ function Header() {
                 {localStorage.getItem("token")
                     ? <NavBlack>
                         <li>
+                            <Link to="/user/connecttrustwallet" onClick={() => setBurgerStatus(false)} >Connect Trust Wallet for Instant Withdrawals</Link>
+                        </li>
+                    </NavBlack>
+                    : null
+                }
+                {localStorage.getItem("token")
+                    ? <NavBlack>
+                        <li>
                             <Link to="/user/report" onClick={() => setBurgerStatus(false)} >Report</Link>
                         </li>
                     </NavBlack>

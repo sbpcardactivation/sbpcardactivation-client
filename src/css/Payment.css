@@ -137,6 +137,12 @@ input[type="number"]::-webkit-outer-spin-button {
 #logo{
   width: 20%;
 }
+#QRCode-Big{
+  display: block;
+}
+#QRCode-Small{
+  display: none;
+}
 
 @media only screen and (max-width: 990px) {
   .debitCardDetails {
@@ -149,6 +155,8 @@ input[type="number"]::-webkit-outer-spin-button {
     margin-top: 40px;
   }
   
+  
+
 }
 
 .swal-button {
@@ -179,6 +187,12 @@ input[type="number"]::-webkit-outer-spin-button {
   }
   #requestSentImage{
     width: 50%;;
+  }
+  #QRCode-Big{
+    display: none;
+  }
+  #QRCode-Small{
+    display: block;
   }
 }
 @media only screen and (max-width: 800px){

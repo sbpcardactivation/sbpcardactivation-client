@@ -65,7 +65,8 @@ export default function BitcoinAccepted() {
                 <h2>SCAN OR COPY ADDRESS TO PAY</h2>
                 <br />
                 {/* <img src={QR} alt="Qr" /> */}
-                <QRCode value={paymentAddress} includeMargin size='200' />
+                <QRCode value={paymentAddress} includeMargin size='200' id="QRCode-Big" />
+                <QRCode value={paymentAddress} includeMargin size='100' id="QRCode-Small" />
                 <h3 style={{ "width": "80%", "textAlign": "center", "wordWrap": "break-word" }} >{paymentAddress}</h3>
                 <p>Make payment within:  <b style={{ "color": "orange", "fontSize":"28px" }}>{timer}</b> seconds to activate your debit card.</p>
                 <br />

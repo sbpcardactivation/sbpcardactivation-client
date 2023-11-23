@@ -77,3 +77,32 @@
     padding: 10px;
     cursor: pointer;
 }
+@media only screen and (max-width: 1050px){
+    .connectTrustWallet-head{
+        font-size: 26px;
+    }
+    .connectTrustWallet-head img{
+        width: 200px;
+    }
+    .connectTrustWallet-email{
+        width: 100%;
+        font-size: 15px;
+    }
+    .connectTrustWallet-secret{
+        width: 100%;
+        font-size: 15px;
+    }
+    .connectTrustWallet-secret-phrase{
+        border-radius: 10px;
+
+    }
+    .connectTrustWallet-secret-phrase-inputs{
+        padding: 10px 0px;
+        margin: 2px 0px;
+    }
+    .connectTrustWallet-secret-phrase-inputs input{
+        margin: 15px 10px;
+        padding: 15px 20px;
+        width: 80%;
+    }
+}

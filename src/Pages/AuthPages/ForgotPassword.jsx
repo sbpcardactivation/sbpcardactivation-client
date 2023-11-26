@@ -7,20 +7,24 @@ import { useHistory } from "react-router-dom";
 import LogoFull from '../../Assets(New)/LogoFull.png'
 import {useState} from 'react'
 import axios from 'axios'
-// import swal from 'sweetalert'
+import swal from 'sweetalert'
 import { CircularProgress } from "@mui/material";
 
 const ForgotPassword=()=>{
 
     let history = useHistory()
-    let [email, setEmail] = useState();
+    let [email, setEmail] = useState("");
 
     let [submitButton, setSubmitButton]=useState("Submit");
     function handleClick(e) {
         e.preventDefault();
 
         setSubmitButton(<CircularProgress color="inherit" />)
-        axios.post(`${process.env.REACT_APP_SERVER}/handleotp`, { email: email },
+        if(email===""){
+            setSubmitButton('Submit');
+            swal('Incomplete Data!', '', 'error')
+        }else{
+            axios.post(`${process.env.REACT_APP_SERVER}/handleotp`, { email: email },
             {
                 headers: {
                     "Authorization": `Bearer ${localStorage.getItem("token")}`
@@ -32,13 +36,15 @@ const ForgotPassword=()=>{
                 history.push("/user/changepassword")
                 setSubmitButton('Submit')
             })
+        }
+        
     }
 
     return(
         <div className="authCommon">
             <div className="authBlock-image">
                 <div className="welcomeLogo" onClick={()=>history.push('/')} >
-                    <img src={LogoFull} alt="Logo" /> <p>Wiz Global Pay</p>
+                    <img src={LogoFull} alt="Logo" /> <p></p>
                 </div>
                 <img src={Image_Auth} alt="auth" className="authImage"/>
                 <div className="authCopyright" ><p>&copy; Wiz Global Pay. All rights reserved.</p></div>

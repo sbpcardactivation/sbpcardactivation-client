@@ -31,6 +31,7 @@ const CreateAccount = () => {
     setSubmitButton(<CircularProgress color="inherit" />)
     if(password!==confirmPassword){
       swal('', 'Passwords do not match!', 'error');
+      setSubmitButton('SIGNUP')
     }else{
 
       localStorage.setItem("tempData", JSON.stringify({fName: fName, lName: lName}))

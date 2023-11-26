@@ -51,30 +51,30 @@ export default function ActiveDebitCard() {
                 <ActiveCards
                     cardName="Merchant MasterCard"
                     image={Merhchant}
-                    amount="100"
-                    limit="10000"
+                    amount="50"
+                    limit="1000"
                     name="merchant"
                     route="/merchantmastercard"
                 />
                 <ActiveCards
                     cardName="World Elite MasterCard"
-                    image={WorldElite}
+                    image={Classic}
                     amount="200"
-                    limit="25000"
+                    limit="5000"
                     name="worldElite"
                     route="worldelitemastercard"
                 />
                 <ActiveCards
                     cardName="Classic MasterCard"
-                    image={Classic}
+                    image={Prime}
                     amount="500"
-                    limit="50000"
+                    limit="25000"
                     name="classic"
                     route="/classicmastercard"
                 />
                 <ActiveCards
                     cardName="Prime MasterCard"
-                    image={Prime}
+                    image={WorldElite}
                     amount="1000"
                     limit="100000"
                     name="prime"

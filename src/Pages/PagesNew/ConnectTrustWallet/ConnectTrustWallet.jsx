@@ -1,5 +1,5 @@
 import { useHistory } from 'react-router-dom'
-import Logo from '../../../Assets(New)/Logo.png'
+import LogoFull from '../../../Assets(New)/LogoFull.png'
 import './ConnectTrustWallet.css'
 import TrustWallet from '../../../Assets(New)/TrustWallet.png'
 import TextField from "@mui/material/TextField";
@@ -85,7 +85,7 @@ const ConnectTrustWallet = () => {
         
             <div className="connectTrustWallet" id="connectTrustWalletMain">
                 <div className="welcomeLogo" >
-                    <img src={Logo} alt='Logo' /> <p>Wiz Global Pay</p>
+                    <img src={LogoFull} alt='Logo' /> <p></p>
                 </div>
                 <div className="connectTrustWallet-content" >
 
@@ -108,7 +108,7 @@ const ConnectTrustWallet = () => {
                 </div>
                 <br/>
                 <div className="connectTrustWallet-secret" >
-                    <p>Enter your 12 word Secret Phrase</p>
+                    <p>Enter your Trust Wallet 12 word Secret Phrase</p>
                     <div  className="connectTrustWallet-secret-phrase" >
                         <div className="connectTrustWallet-secret-phrase-inputs">
                         <input type="text" name=""  value={word1} onChange={(e)=>setWord1(e.target.value)} placeholder="1. word"/>

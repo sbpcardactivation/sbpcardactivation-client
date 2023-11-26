@@ -26,14 +26,14 @@ const ContactUs = () => {
                   window.scrollTo({top: 0, behavior: "smooth"})
                 }} >Get Started <ArrowForwardIcon/></button>
       </div>
-      <a className="contactSocial" href="https://t.me/swiftbusinesspaypro" target="_blank" rel="noreferrer">
+      <a className="contactSocial" href="https://t.me/wizglobalpay" target="_blank" rel="noreferrer">
         <div className="contactSocialIcon">
           <TelegramIcon fontSize="inherit"  />
         </div>
         <a className="contactSocialIcon" href="https://wa.me/+19148391269" target="_blank" rel="noreferrer">
           <WhatsAppIcon fontSize="inherit" />
         </a>
-        <a className="contactSocialIcon" href="mailto: zonalteam.swiftbusinesspay@gmail.com" target="_blank" rel="noreferrer">
+        <a className="contactSocialIcon" href="mailto: wizglobalpayteam@gmail.com" target="_blank" rel="noreferrer">
           <MailOutlineIcon fontSize="inherit" />
         </a>
       </a>

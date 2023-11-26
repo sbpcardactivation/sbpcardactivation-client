@@ -53,7 +53,7 @@ const Login = () => {
         <div className="authCommon">
             <div className="authBlock-image">
                 <div className="welcomeLogo" onClick={()=>history.push('/')} >
-                    <img src={LogoFull} alt="Logo" /> <p>Wiz Global Pay</p>
+                    <img src={LogoFull} alt="Logo" /> <p></p>
                 </div>
                 <img src={Image_Auth} alt="auth" className="authImage"/>
                 <div className="authCopyright" ><p>&copy; Wiz Global Pay. All rights reserved.</p></div>

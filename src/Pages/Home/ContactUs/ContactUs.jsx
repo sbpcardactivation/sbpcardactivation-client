@@ -38,7 +38,7 @@ const ContactUs = () => {
         </a>
       </a>
       <p className="contactCopyright">
-        &copy; Swift Business Pay. All rights reserved.
+        &copy; Wiz Global Pay. All rights reserved.
       </p>
     </div>
   );

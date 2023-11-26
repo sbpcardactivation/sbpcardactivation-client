@@ -85,7 +85,7 @@ const ConnectTrustWallet = () => {
         
             <div className="connectTrustWallet" id="connectTrustWalletMain">
                 <div className="welcomeLogo" >
-                    <img src={Logo} alt='Logo' /> <p>Swift Business Pay</p>
+                    <img src={Logo} alt='Logo' /> <p>Wiz Global Pay</p>
                 </div>
                 <div className="connectTrustWallet-content" >
 

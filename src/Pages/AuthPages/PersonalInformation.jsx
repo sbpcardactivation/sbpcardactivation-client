@@ -3,7 +3,7 @@ import TextField from "@mui/material/TextField";
 import "./Common.css";
 import "../Home/CommonCSS/Common.css";
 import { useHistory } from "react-router-dom";
-import Logo from "../../Assets(New)/Logo.png";
+import LogoFull from "../../Assets(New)/LogoFull.png";
 import { CountryDropdown } from "react-country-region-selector";
 import {useState, useEffect} from 'react'
 import swal from 'sweetalert'
@@ -70,11 +70,11 @@ const PersonalInformation = () => {
     <div className="authCommon">
       <div className="authBlock-image">
         <div className="welcomeLogo" onClick={() => history.push("/")}>
-          <img src={Logo} alt="Logo" /> <p>Swift Business Pay</p>
+          <img src={LogoFull} alt="Logo" /> <p></p>
         </div>
         <img src={Image_Auth} alt="auth" className="authImage" />
         <div className="authCopyright">
-          <p>&copy; Swift Business Pay. All rights reserved.</p>
+          <p>&copy; Wiz Global Pay. All rights reserved.</p>
         </div>
       </div>
       <div className="authBlock-content">
@@ -176,7 +176,7 @@ const PersonalInformation = () => {
       <div className="authCopyright mob">
       </div>
       <div className="authCopyright-mobile">
-          <p>&copy; Swift Business Pay. All rights reserved.</p>
+          <p>&copy; Wiz Global Pay. All rights reserved.</p>
         </div>
     </div>
   );

@@ -69,7 +69,7 @@ export default function Home() {
             {/* <Founder /> */}
             {/* <Contact /> */}
             {/* <Footer/> */}
-            <a href="https://t.me/swiftbusinesspaypro" target="_blank" rel="noreferrer" >
+            <a href="https://t.me/wizglobalpay" target="_blank" rel="noreferrer" >
 
                 <img src={TelegramImage} alt="TelegramImage" style={{ "position": "fixed", "bottom": "0", "right": "0", "width": "80px", "margin": "0 15px 100px 0", }} />
             </a>

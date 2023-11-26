@@ -1,5 +1,5 @@
 import "../Home/Welcome/Welcome.css"
-import Logo from '../../Assets(New)/Logo.png'
+import LogoFull from '../../Assets(New)/LogoFull.png'
 
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import {useHistory} from 'react-router-dom'
@@ -12,7 +12,7 @@ const RequestSent = () => {
   return (
     <div className="welcome">
       <div className="welcomeLogo">
-        <img src={Logo} alt="Logo" /> <p>Swift Business Pay</p>
+        <img src={LogoFull} alt="Logo" /> <p></p>
       </div>
       <div className="welcomeSubhead2" >
         <h2>Request Sent! ✅</h2>
@@ -28,7 +28,7 @@ const RequestSent = () => {
         </button>
       </div>
       <div className="authCopyright-mobile">
-          <p>&copy; Swift Business Pay. All rights reserved.</p>
+          <p>&copy; Wiz Global Pay. All rights reserved.</p>
         </div>
     </div>
   );

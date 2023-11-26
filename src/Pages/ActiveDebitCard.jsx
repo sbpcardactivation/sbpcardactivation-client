@@ -6,11 +6,13 @@ import ActiveCards from "./components/ActiveCards";
 import Classic from "../Assets(New)/Cards/DemoClassicMasterCard.png"
 import Merhchant from "../Assets(New)/Cards/DemoMerchantMasterCard.png"
 import Prime from "../Assets(New)/Cards/DemoPrimeMasterCard.png"
+// eslint-disable-next-line
 import Titanium from "../Assets(New)/Cards/DemoTitaniumMasterCard.png"
 import WorldElite from "../Assets(New)/Cards/DemoWorldEliteMasterCard.png"
 import ParticleAnimation from "./components/ParticleAnimation"
 
 import MoneyBack from "../Assets/MoneyBack.png"
+// eslint-disable-next-line
 import PaymentSecured from "../Assets/PaymentSecured.jpeg"
 import axios from "axios";
 import { useHistory } from "react-router-dom";
@@ -78,19 +80,19 @@ export default function ActiveDebitCard() {
                     name="prime"
                     route="/primemastercard"
                 />
-                <ActiveCards
+                {/* <ActiveCards
                     cardName="Titanium MasterCard"
                     image={Titanium}
                     amount="2000"
                     limit="1000000"
                     name="titanium"
                     route="/titaniummastercard"
-                />
+                /> */}
             </div>
-            <div className="secureImageActiveDebitCard" style={{ "width": "100%", "textAlign": "center" }} >
+            {/* <div className="secureImageActiveDebitCard" style={{ "width": "100%", "textAlign": "center" }} >
 
                 <img src={PaymentSecured} alt="PaymentSecured" />
-            </div>
+            </div> */}
         </div>
     )
 }

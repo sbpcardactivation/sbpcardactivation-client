@@ -1,5 +1,5 @@
 import "./Welcome.css"
-import Logo from '../../../Assets(New)/Logo.png'
+import LogoFull from '../../../Assets(New)/LogoFull.png'
 
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import {useHistory} from 'react-router-dom'
@@ -10,10 +10,10 @@ const Welcome=()=>{
   return(
     <div className="welcome" id="welcomeMain">
       <div className="welcomeLogo" >
-        <img src={Logo} alt='Logo' /> <p>Swift Business Pay</p>
+        <img src={LogoFull} alt='Logo' /> <p></p>
       </div>
       <div className="welcomeSubhead">WELCOME TO</div>
-      <div className="welcomeHead" >Swift Business Pay</div>
+      <div className="welcomeHead" >Wiz Global Pay</div>
       <div className="welcomeSubhead2" >
       We are world’s one of the most trusted and instant crypto transfer platform
       <br/>

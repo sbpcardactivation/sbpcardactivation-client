@@ -5,7 +5,9 @@ import ParticleAnimation from "../components/ParticleAnimation";
 import { CountryDropdown} from 'react-country-region-selector';
 import PaymentSecured from "../../Assets/PaymentSecured.jpeg"
 import { useHistory } from "react-router-dom";
+// eslint-disable-next-line
 import WorldElite from "../../Assets(New)/Cards/DemoWorldEliteMasterCard.png"
+import DemoClassicMasterCard from "../../Assets(New)/Cards/DemoClassicMasterCard.png"
 
 export default function MerchantMasterCard() {
 
@@ -21,7 +23,7 @@ export default function MerchantMasterCard() {
 
             <h2 >World Elite Master Card</h2>
             <form className="withdrawalCardImage">
-                <img src={WorldElite} alt="WorldElite" />
+                <img src={DemoClassicMasterCard} alt="WorldElite" />
                 <input
                     type="text"
                     placeholder="Full Name*"

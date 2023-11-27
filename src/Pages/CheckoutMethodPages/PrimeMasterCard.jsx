@@ -1,7 +1,8 @@
 import React from "react";
 import "../../css/Payment.css"
-
+// eslint-disable-next-line
 import Prime from "../../Assets(New)/Cards/DemoPrimeMasterCard.png"
+import World from "../../Assets(New)/Cards/DemoWorldEliteMasterCard.png"
 // import { CountryDropdown, RegionDropdown, CountryRegionData } from 'react-country-region-selector';
 import ParticleAnimation from "../components/ParticleAnimation";
 
@@ -17,7 +18,7 @@ export default function PrimeMasterCard() {
             <form style={{ "marginTop": "20px" }}className="withdrawalCardImage" >
                 <br />
                 <br />
-                <img src={Prime} alt="PrimeMasterCard" />
+                <img src={World} alt="PrimeMasterCard" />
                 <input
                     type="text"
                     placeholder="First Name*"

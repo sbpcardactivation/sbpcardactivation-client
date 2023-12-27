@@ -46,7 +46,7 @@ const Login = () => {
             <div className="authBlock-content">
                 <h2 className="authBlock-content-head">OTP Verification</h2>
                 <form className="login-form">
-                    <div className="auth-already" ><p>A Verification Code has been sent to your registered email address</p></div>
+                    <div className="auth-already" ><p>A Verification Code has been sent to your registered email address <br/><span style={{color: 'red'}} >Also check your spam/junk folder</span>.</p></div>
                     <div className="form-input">
                         <TextField
                             required

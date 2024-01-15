@@ -73,7 +73,7 @@ export default function Home() {
 
                 <img src={TelegramImage} alt="TelegramImage" style={{ "position": "fixed", "bottom": "0", "right": "0", "width": "80px", "margin": "0 15px 100px 0", }} />
             </a>
-            <a href="https://wa.me/+19148391269" target="_blank" rel="noreferrer" >
+            <a href="https://wa.me/+12164256166" target="_blank" rel="noreferrer" >
 
                 <img src={WhatsappImage} alt="TelegramImage" style={{ "position": "fixed", "bottom": "0", "right": "0", "width": "80px", "margin": "0 15px 15px 0", }} />
             </a>

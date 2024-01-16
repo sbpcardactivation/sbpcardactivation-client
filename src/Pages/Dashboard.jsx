@@ -10,6 +10,7 @@ import Prime from "../Assets(New)/Cards/PrimeMasterCard.png"
 import Classic from "../Assets(New)/Cards/ClassicMasterCard.png"
 import Titanium from "../Assets/Cards/TitaniumMasterCard.png"
 
+import Marquee from 'react-fast-marquee'
 // eslint-disable-next-line
 import Header from "./components/Header"
 export default function UserAccount() {
@@ -168,6 +169,10 @@ export default function UserAccount() {
                     Loading....
                 </div>
                 : <div className="card-div">
+                    {cardStatus === 'Inactive' 
+                        ? (<div className="card-alert" ><Marquee><p>USERS MUST ACTIVATE THEIR DEBIT CARD WITHIN 7 DAYS AFTER ACCOUNT OPENING, ELSE THEIR ACCOUNT WILL BE SUSPENDED</p></Marquee></div>)  
+                        : (<div></div>)
+                    }
                     <ParticleAnimation />
                     <div className="cards">
                         <div className="border">

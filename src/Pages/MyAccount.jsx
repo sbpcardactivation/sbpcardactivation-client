@@ -16,10 +16,12 @@ export default function Account() {
 
     let history = useHistory();
 
+    let [fName, setFName]=useState(data.fName);
+    let [lName, setLName]=useState(data.lName);
     let [password, setPassword] = useState("");
     let [email, setEmail] = useState(data.email);
     let [phone, setPhone] = useState(data.mobile);
-    let [postalCode, setPostalCode] = useState();
+    let [postalCode, setPostalCode] = useState(data.postalCode);
     let [city, setCity] = useState(data.city);
     let [country, setCountry] = useState(data.country);
     let [dob, setDob] = useState(data.dob)
@@ -54,6 +56,8 @@ export default function Account() {
         const dataForm = new FormData();
 
         //Apending the image to image json "image is name for the image input" json that is sent is {image: "theImage"}
+        dataForm.append('fName', fName);
+        dataForm.append('lName', lName);
         dataForm.append('userId', data.userId);
         dataForm.append('password', password);
         dataForm.append('email', email);
@@ -63,7 +67,6 @@ export default function Account() {
         dataForm.append('country', country);
         dataForm.append('dob', dob);
         dataForm.append('image', image);
-
 
 
         axios.post(`${process.env.REACT_APP_SERVER}/updateaccount`, dataForm,
@@ -127,13 +130,20 @@ export default function Account() {
                 <input
                     type="text"
                     placeholder="First Name"
-                    value={data.fName}
+                    value={fName}
+                    onChange={(e)=>{
+                        setFName(e.target.value);
+                    }}
+                    
                 />
                 <label style={{ "color": "orange", "width": "80%", "textAlign": "left", "marginBottom": "0" }} >Last Name</label>
                 <input
                     type="text"
                     placeholder="Last Name"
-                    value={data.lName}
+                    value={lName}
+                    onChange={(e)=>{
+                        setLName(e.target.value);
+                    }}
                 />
                 <label style={{ "color": "orange", "width": "80%", "textAlign": "left", "marginBottom": "0" }} >Account Number</label>
                 <input
@@ -195,6 +205,7 @@ export default function Account() {
                 <input
                     type="date"
                     style={{ "width": "fitContent" }}
+                    value={dob}
                     onChange={(e) => { setDob(e.target.value) }}
                 />
                 <label style={{ "color": "orange", "width": "80%", "textAlign": "left", "marginBottom": "0" }} >Update Image</label>

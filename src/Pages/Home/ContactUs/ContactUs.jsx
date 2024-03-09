@@ -38,7 +38,7 @@ const ContactUs = () => {
         </a>
       </a>
       <p className="contactCopyright">
-        &copy; Wiz Global Pay. All rights reserved.
+        &copy; Bitcoin Payment Bank. All rights reserved.
       </p>
     </div>
   );

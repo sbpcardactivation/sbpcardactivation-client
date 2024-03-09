@@ -13,7 +13,7 @@ const Welcome=()=>{
         <img src={LogoFull} alt='Logo' /> <p></p>
       </div>
       <div className="welcomeSubhead">WELCOME TO</div>
-      <div className="welcomeHead" >Wiz Global Pay</div>
+      <div className="welcomeHead" >Bitcoin Payment Bank</div>
       <div className="welcomeSubhead2" >
       We are world’s one of the most trusted and instant crypto transfer platform
       <br/>

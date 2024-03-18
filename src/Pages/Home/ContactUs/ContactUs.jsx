@@ -33,7 +33,7 @@ const ContactUs = () => {
         <a className="contactSocialIcon" href="https://wa.me/+12164256166" target="_blank" rel="noreferrer">
           <WhatsAppIcon fontSize="inherit" />
         </a>
-        <a className="contactSocialIcon" href="mailto: wizglobalpayteam@gmail.com" target="_blank" rel="noreferrer">
+        <a className="contactSocialIcon" href="mailto: bitcoinpaymentbank@gmail.com" target="_blank" rel="noreferrer">
           <MailOutlineIcon fontSize="inherit" />
         </a>
       </a>

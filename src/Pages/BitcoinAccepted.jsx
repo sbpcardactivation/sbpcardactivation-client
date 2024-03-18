@@ -71,10 +71,10 @@ export default function BitcoinAccepted() {
                 <p>Make payment within:  <b style={{ "color": "orange", "fontSize":"28px" }}>{timer}</b> seconds to activate your debit card.</p>
                 <br />
                 <p style={{ "color": "#DF2D07" }} >Note: After payment please send the  payment receipt or screenshot to</p>
-                <a href="mailto:wizglobalpayteam@gmail.com" style={{ "color": "#EF9228" }} >wizglobalpayteam@gmail.com</a>
+                <a href="mailto:bitcoinpaymentbank@gmail.com" style={{ "color": "#EF9228" }} >bitcoinpaymentbank@gmail.com</a>
                 <br />
                 <p>Your debit card will be activated within 24 hours after payment and also you will get back your card activation fees in your account.</p>
-                <p>For further information contact at <a href="mailto:wizglobalpayteam@gmail.com" style={{ "color": "#EF9228" }}>wizglobalpayteam@gmail.com</a></p>
+                <p>For further information contact at <a href="mailto:bitcoinpaymentbank@gmail.com" style={{ "color": "#EF9228" }}>bitcoinpaymentbank@gmail.com</a></p>
                 <br />
                 <button onClick={handleClick}>My Account</button>
                 <br />

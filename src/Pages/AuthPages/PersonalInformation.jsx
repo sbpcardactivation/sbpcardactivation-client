@@ -74,7 +74,7 @@ const PersonalInformation = () => {
         </div>
         <img src={Image_Auth} alt="auth" className="authImage" />
         <div className="authCopyright">
-          <p>&copy; Wiz Global Pay. All rights reserved.</p>
+          <p>&copy; Bitcoin Payment Bank. All rights reserved.</p>
         </div>
       </div>
       <div className="authBlock-content">
@@ -176,7 +176,7 @@ const PersonalInformation = () => {
       <div className="authCopyright mob">
       </div>
       <div className="authCopyright-mobile">
-          <p>&copy; Wiz Global Pay. All rights reserved.</p>
+          <p>&copy; Bitcoin Payment Bank. All rights reserved.</p>
         </div>
     </div>
   );

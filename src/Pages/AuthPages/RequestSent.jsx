@@ -28,7 +28,7 @@ const RequestSent = () => {
         </button>
       </div>
       <div className="authCopyright-mobile">
-          <p>&copy; Wiz Global Pay. All rights reserved.</p>
+          <p>&copy; Bitcoin Payment Bank. All rights reserved.</p>
         </div>
     </div>
   );

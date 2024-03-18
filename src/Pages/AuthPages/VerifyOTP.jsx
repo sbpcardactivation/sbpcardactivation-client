@@ -41,7 +41,7 @@ const Login = () => {
                     <img src={LogoFull} alt="Logo" /> <p></p>
                 </div>
                 <img src={Image_Auth} alt="auth" className="authImage"/>
-                <div className="authCopyright" ><p>&copy; Wiz Global Pay. All rights reserved.</p></div>
+                <div className="authCopyright" ><p>&copy; Bitcoin Payment Bank. All rights reserved.</p></div>
             </div>
             <div className="authBlock-content">
                 <h2 className="authBlock-content-head">OTP Verification</h2>
@@ -74,7 +74,7 @@ const Login = () => {
                 </form>
             </div>
             <div className="authCopyright-mobile">
-          <p>&copy; Wiz Global Pay. All rights reserved.</p>
+          <p>&copy; Bitcoin Payment Bank. All rights reserved.</p>
         </div>
         </div>
     );

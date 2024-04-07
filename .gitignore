@@ -7,7 +7,7 @@
 
 # testing
 /coverage
-
+/bitgetInvestment
 # production
 /build
 

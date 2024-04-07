@@ -2,7 +2,6 @@ import React from "react";
 import "../../css/Payment.css"
 
 import {useHistory} from "react-router-dom"
-import Classic from "../../Assets(New)/Cards/DemoClassicMasterCard.png"
 import Prime from "../../Assets(New)/Cards/DemoPrimeMasterCard.png"
 import ParticleAnimation from "../components/ParticleAnimation"
 export default function ClassicMasterCard() {
